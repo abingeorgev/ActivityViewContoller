@@ -10,8 +10,10 @@ Its pretty simple to use.
 
  Create an object of ActivityViewController
  
-```sh
+```objective-c
+
  @property (strong, nonatomic)ActivityViewController *activityVC;
+ 
 ```
 
  Initialise it by 
