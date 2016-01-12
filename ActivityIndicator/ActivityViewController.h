@@ -8,13 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-#define kActivityInitialise [[ActivityViewController alloc] initWithNibName:@"ActivityViewController" bundle:[NSBundle mainBundle]];
-
 @interface ActivityViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (weak, nonatomic) IBOutlet UIView *innerView;
 
 -(void)remove;
+-(instancetype)init;
 
 @end
