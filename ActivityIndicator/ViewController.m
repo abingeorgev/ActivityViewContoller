@@ -32,14 +32,11 @@
     
     [self performSelector:@selector(stop) withObject:nil afterDelay:5];
     
-    self.activityVC= [[ActivityViewController alloc] init];
-    [self.view addSubview:self.activityVC.view];
-    
-    self.activityVC.innerView.layer.cornerRadius = 5;
+    self.activityVC= kStartAnimating;
 }
 
 -(void)stop
 {
-    [self.activityVC remove];
+    [self.activityVC kStopAnimating];
 }
 @end

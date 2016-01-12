@@ -27,6 +27,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.innerView.layer.cornerRadius = 10;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,7 +36,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)remove
+-(void)kStopAnimating
 {
     [self.view removeFromSuperview];
     [self removeFromParentViewController];

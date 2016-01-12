@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+#define kStartAnimating [[ActivityViewController alloc] init];[self.view addSubview:self.activityVC.view]
+
 @interface ActivityViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 @property (weak, nonatomic) IBOutlet UIView *innerView;
 
--(void)remove;
+-(void)kStopAnimating;
 -(instancetype)init;
 
 @end
