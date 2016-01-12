@@ -17,16 +17,16 @@ Its pretty simple to use.
 ```
 
  Initialise it by 
- ```sh
+```Objective-C
  self.activityVC = kActivityInitialise;
  [self.view addSubview:self.activityVC.view];
 ```
  Remove it by
- ```sh
+```Objective-C
  [self.activityVC remove];
  ```
  To customise the innerview, you can use either xib, or
- ```sh
+```Objective-C
  self.innerVC.layer.cornerRadius = 5;
  ```
  
