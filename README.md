@@ -18,12 +18,11 @@ Its pretty simple to use.
 
  Initialise it by 
 ```Objective-C
- self.activityVC = kActivityInitialise;
- [self.view addSubview:self.activityVC.view];
+ self.activityVC = kStartAnimating;
 ```
  Remove it by
 ```Objective-C
- [self.activityVC remove];
+ [self.activityVC kStopAnimating];
  ```
  To customise the innerview, you can use either xib, or
 ```Objective-C
