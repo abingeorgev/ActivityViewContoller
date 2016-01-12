@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ActivityViewController.h"
 
 @interface ViewController ()
+
+@property (strong, nonatomic)ActivityViewController *activityVC;
 
 @end
 
@@ -24,4 +27,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)startActivity:(id)sender
+{
+    
+    [self performSelector:@selector(stop) withObject:nil afterDelay:5];
+    
+     self.activityVC = kActivityInitialise
+    [self.view addSubview:self.activityVC.view];
+    
+    self.activityVC.innerView.layer.cornerRadius = 5;
+}
+
+-(void)stop
+{
+    [self.activityVC remove];
+}
 @end

@@ -14,6 +14,8 @@
 		18F628141C44C72C007A9E39 /* ActivityIndicator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18F628121C44C72C007A9E39 /* ActivityIndicator.xcdatamodeld */; };
 		18F628161C44C72D007A9E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F628151C44C72D007A9E39 /* Assets.xcassets */; };
 		18F628191C44C72D007A9E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F628171C44C72D007A9E39 /* LaunchScreen.storyboard */; };
+		18F628231C44C793007A9E39 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F628211C44C793007A9E39 /* ActivityViewController.m */; };
+		18F628241C44C793007A9E39 /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F628221C44C793007A9E39 /* ActivityViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		18F628151C44C72D007A9E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F628181C44C72D007A9E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F6281A1C44C72D007A9E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F628201C44C793007A9E39 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		18F628211C44C793007A9E39 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		18F628221C44C793007A9E39 /* ActivityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +69,7 @@
 				18F6280A1C44C72C007A9E39 /* AppDelegate.m */,
 				18F6280C1C44C72C007A9E39 /* ViewController.h */,
 				18F6280D1C44C72C007A9E39 /* ViewController.m */,
+				18F628251C44D3D2007A9E39 /* ActivityViewController */,
 				18F6280F1C44C72C007A9E39 /* Main.storyboard */,
 				18F628151C44C72D007A9E39 /* Assets.xcassets */,
 				18F628171C44C72D007A9E39 /* LaunchScreen.storyboard */,
@@ -80,6 +86,16 @@
 				18F628071C44C72C007A9E39 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F628251C44D3D2007A9E39 /* ActivityViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18F628201C44C793007A9E39 /* ActivityViewController.h */,
+				18F628211C44C793007A9E39 /* ActivityViewController.m */,
+				18F628221C44C793007A9E39 /* ActivityViewController.xib */,
+			);
+			name = ActivityViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +158,7 @@
 				18F628191C44C72D007A9E39 /* LaunchScreen.storyboard in Resources */,
 				18F628161C44C72D007A9E39 /* Assets.xcassets in Resources */,
 				18F628111C44C72C007A9E39 /* Main.storyboard in Resources */,
+				18F628241C44C793007A9E39 /* ActivityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +173,7 @@
 				18F6280E1C44C72C007A9E39 /* ViewController.m in Sources */,
 				18F6280B1C44C72C007A9E39 /* AppDelegate.m in Sources */,
 				18F628081C44C72C007A9E39 /* main.m in Sources */,
+				18F628231C44C793007A9E39 /* ActivityViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
